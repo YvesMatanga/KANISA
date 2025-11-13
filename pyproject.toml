@@ -1,7 +1,7 @@
 [project]
 name = "KANISA"
-version = "0.1.0"
-description = "KANISA: An advanced computational library for optimisation, numerical analysis, dynamic systems, machine learning and decision analytics"
+version = "0.0.1"
+description = "KANISA: An advanced computational library for optimisation, numerical analysis, dynamic systems, machine learning and decision analytics / Une bibliothèque computationnelle avancée pour l’optimisation, l’analyse numérique, les systèmes dynamiques, l’apprentissage automatique et l’analyse décisionnelle"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
