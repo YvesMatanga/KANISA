@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: KANISA
+Version: 0.1.0
+Summary: KANISA: An advanced computational library for optimisation, numerical analysis, dynamic systems, machine learning and decision analytics
+Project-URL: Homepage, https://github.com/YvesMatanga/KANISA
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+**KANISA**, which stands for 'think', is a computational library for advanced studies in optimisation, numerical analysis, dynamic systems, machine learning and decision analytics
