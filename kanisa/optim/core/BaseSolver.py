@@ -15,7 +15,7 @@ class BaseSolver:
     # Default hyperparameters for all solvers
     DEFAULTS = {
         "max_iter": 200,
-        "max_stall_iter": float("inf") #No stalling iteration set
+        "max_stall_iter": float("inf"), #No stalling iteration set
         "verbosity": 1,
         "seed": None,
     }
