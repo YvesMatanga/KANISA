@@ -10,7 +10,11 @@ Correct citation acknowledges scientific contributions, supports ongoing develop
 ## 1. Cite the KANISA Software
 
 A dedicated software paper and preprint will be released soon.  
-Until then, please cite KANISA as follows:
+Until then, please cite KANISA and the following papers, selectively based on the algorithms used:
+
+
+### **BibTeX**
+```bibtex
 
 @misc{matanga2025kanisa,
   title        = {KANISA: A Computational Library for Global Optimisation, Numerical Analysis, Dynamic Systems, Machine Learning, and   Decision Analytics},
@@ -21,11 +25,6 @@ Until then, please cite KANISA as follows:
   institution  = {Banso Analytics},
 }
 
-and the following papers, selectively based on the algorithms used:
-
-
-### **BibTeX**
-```bibtex
 @article{matanga2021psoabb,
   title={Hybrid PSO--$\alpha$BB Global Optimisation for {$C^2$} Box-Constrained Multimodal NLPs},
   author={Matanga, Yves and Sun, Yanxia and Wang, Zenghui},
