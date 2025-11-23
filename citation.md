@@ -12,3 +12,15 @@ Correct citation acknowledges scientific contributions, supports ongoing develop
 A dedicated software paper and preprint will be released soon.  
 Until then, please cite KANISA as follows:
 
+
+### BibTeX
+```bibtex
+@article{matanga2021psoabb,
+  title={Hybrid PSO--$\alpha$BB Global Optimisation for {$C^2$} Box-Constrained Multimodal NLPs},
+  author={Matanga, Yves and Sun, Yanxia and Wang, Zenghui},
+  journal={IEEE Access},
+  volume={10},
+  pages={805--818},
+  year={2021},
+  publisher={IEEE}
+}
