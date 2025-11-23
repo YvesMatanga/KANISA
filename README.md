@@ -10,6 +10,15 @@
 
 KANISA aims to provide a rigorous, extensible, and transparent environment for algorithmic development, benchmarking, and reproducible scientific research.
 
+
+---
+
+## How to Cite KANISA
+
+If you use KANISA in your research, please follow the citation guidelines below:
+
+➡️ **[View the Complete Citation File](./citation.md)**
+
 ---
 
 ## Library Structure
