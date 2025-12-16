@@ -4,7 +4,7 @@ clear all
 close all
 % in case of cleanup error
 % addpath(fullfile(matlabroot,'toolbox','matlab','general'))  
-%% Reuirements
+%% Requirements
 fprintf('------------------------------------------------------\n')
 fprintf('Dependency: [1] MATLAB (2019b)                        \n')
 fprintf('            [2] INTLAB library (typical version  V14) \n')
@@ -17,9 +17,9 @@ fprintf('[4] Proceed to running the code...\n')
 fprintf('------------------------------------------------------\n')
 
 %% Test Function
-obj_func = @(x)camel6_func(x);
-xl = [-3;-2];
-xu = [3;2];
+obj_func = @(x)schaffer2_func(x);
+xl = [-65;-65];
+xu = [65;65];
 %% PSO parameters
 pso_options.maxIter = 40;%number of iterations
 pso_options.popSize = 30;%population size
@@ -52,15 +52,11 @@ options.ub_options = pso_options;
 
 [xopt_pso_abb,fopt_pso_abb,algCost_pso_abb] = ABB_PSO_SOLVE(obj_func,xl,xu,options)
 
-%%
-function f = camel6_func(x)
-%CAMEL6_FUNC 
-%multimodal function with six local optimum 
-%of which two are global
-%variable bounds -3<x1<3, -2<x2<2
-%f(-0.0898,0.7126) = 0
-%f(0.0898,-0.7126) = 0
-f = (4-2.1*x(1)^2 + (x(1)^4)/3)*x(1)^2 + ...
-    x(1)*x(2) + (-4+4*x(2)^2)*x(2)^2;
-%y = y + 1.031628422928082;%modified camel6 func
+%% Test function
+function [y] = schaffer2_func(x)
+x1 = x(1);
+x2 = x(2);
+fact1 = (sin(x1^2-x2^2))^2 - 0.5;
+fact2 = (1 + 0.001*(x1^2+x2^2))^2;
+y = 0.5 + fact1/fact2;
 end

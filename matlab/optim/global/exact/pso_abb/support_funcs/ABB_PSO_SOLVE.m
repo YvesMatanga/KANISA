@@ -208,6 +208,7 @@ while ~isempty(BNodes) && perf_options.iter <= options.maxIter
 
    
 %% Calculate Lower Bound
+    exitFlag = - 1;
     if ~isempty(find(Node.alpha == Inf,1)) 
         If = f(infsup(Node.xl,Node.xu));
         Node.lb = If.inf;
@@ -318,4 +319,5 @@ for i=1:dim
     y = y + alpha(i)*(x(i)-xl(i)).*(x(i)-xu(i));
 end
 end
+
 
