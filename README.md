@@ -1,4 +1,4 @@
-# KANISA: Computational Library for Optimisation, Decision Analytics, Numerical Analysis, Dynamic Systems and Machine Learning
+# KANISA: Computational Library for Optimisation, Numerical Analysis, Dynamic Systems and Decision Analytics
 **KANISA** (meaning *“think”*) is a unified computational framework designed to support advanced research and applied development in:
 
 - Global and local optimisation  
