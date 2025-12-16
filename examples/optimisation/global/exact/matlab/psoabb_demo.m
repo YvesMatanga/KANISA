@@ -1,6 +1,3 @@
-
-
-
 nx = length(xl);
 %% PSO parameters
 pso_options.maxIter = 40;
@@ -42,9 +39,9 @@ ticIn = clock;
 ticOut = clock;
 teps_psoabb = etime(ticOut,ticIn)
 
-ticIn = clock;
-[xopt_pso_abb,fopt_pso_abb,algCost_pso_abb] = ABB_PSO_SOLVE(obj_func,xl,xu,options)
-ticOut = clock;
+% ticIn = clock;
+% [xopt_pso_abb,fopt_pso_abb,algCost_pso_abb] = ABB_PSO_SOLVE(obj_func,xl,xu,options)
+% ticOut = clock;
 
 ticIn = clock;
 [xopt_abb,fopt_abb,algCost_abb] = ABB_SOLVE(obj_func,xl,xu,options)
@@ -54,3 +51,12 @@ clc
 algCost_pso
 algCost_pso_abb
 algCost_abb
+
+%%
+function f = rosenbrock2D(x)
+% ROSENBROCK2D  Two-dimensional Rosenbrock function
+%
+%   f = rosenbrock2D(x1, x2)
+
+    f = 100*(x(2) - x(1)^2)^2 + (1 - x(1))^2;
+end

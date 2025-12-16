@@ -2,7 +2,8 @@
 clc
 clear all
 close all
-% in case of cleanup error
+
+% fullfile(matlabroot,'toolbox','matlab','general')
 % addpath(fullfile(matlabroot,'toolbox','matlab','general'))  
 %% Reuirements
 fprintf('------------------------------------------------------\n')
@@ -18,8 +19,8 @@ fprintf('------------------------------------------------------\n')
 
 %% Test Function
 obj_func = @(x)camel6_func(x);
-xl = [-3;-2];
-xu = [3;2];
+xl = [-5;-5];
+xu = [5;5];
 %% options
 options.eps = 10^(-3);
 options.intprune = 1;%enable interval analysis pruning
