@@ -18,7 +18,7 @@ pso_options.maxStallIter = Inf;%set maximum stalling iteration
 pso_options.geps = 10^(-3);%improvement tolerance
 pso_options.EnStopHeurestic = 0;%enable heuristic stopping criteria
 pso_options.EnPostOptimisation = 0;%enable post optimisation
-pso_options.Nstep = 2;%velocity division factor
+pso_options.Nstep = 2;%|v_max| = (Iu-Il)/Nstep
 pso_options.pop = halton_sequence_gen(xl,xu,pso_options.popSize);%set to empty [] for random init
 pso_options.post_opts =  optimoptions(@fmincon,'Algorithm','sqp','Display','off');
 %% Solver

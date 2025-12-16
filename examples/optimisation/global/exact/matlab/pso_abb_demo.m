@@ -31,7 +31,7 @@ pso_options.maxStallIter = 20;
 pso_options.geps = 10^(-3);%improvement value significance
 pso_options.EnStopHeurestic = 1;%Enable stalling stop heuristic
 pso_options.EnPostOptimisation = 1;%enable solution fine-tuning by SQP
-pso_options.Nstep = 2;%velocity function division
+pso_options.Nstep = 2;%|v_max| = (Iu-Il)/Nstep
 pso_options.pop = [];%no initial population pre-load
 pso_options.post_opts =  optimoptions(@fmincon,'Algorithm','sqp','Display','off');
 %% options
