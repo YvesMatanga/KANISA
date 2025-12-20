@@ -1,6 +1,6 @@
 # KANISA — Complete Citation File
 
-Thank you for using **KANISA**, a computational library for global optimisation, numerical analysis, dynamic systems, machine learning, and decision analytics.
+Thank you for using **KANISA**, a computational library for global optimisation, numerical analysis, dynamic systems, and decision analytics.
 
 If you use KANISA, its Python modules, or the MATLAB legacy implementations in your academic or industrial research, please cite the relevant works below.  
 Correct citation acknowledges scientific contributions, supports ongoing development, and maintains the scholarly lineage behind each algorithm.
