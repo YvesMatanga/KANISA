@@ -71,6 +71,8 @@ These solvers represent the evolutionary computing lineage of KANISA.
 **Algorithms included:**
 - **PSO (Particle Swarm Optimisation)**
 - **DE (Differential Evolution)**
+- **Sequential Niching DE**
+- **Sequential Niching PSO**
 
 These algorithms do not depend on proprietary software and are provided for reference, benchmarking, and historical documentation.
 
