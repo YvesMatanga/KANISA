@@ -17,7 +17,7 @@ Until then, please cite KANISA and the following papers, selectively based on th
 ```bibtex
 
 @misc{matanga2025kanisa,
-  title        = {KANISA: A Computational Library for Global Optimisation, Numerical Analysis, Dynamic Systems, Machine Learning, and   Decision Analytics},
+  title        = {KANISA: An Extensible Library for Global Optimisation, Numerical Analysis, Dynamic Systems, and Decision Analytics},
   author       = {Matanga, Yves},
   year         = {2025},
   note         = {Preprint and Software Paper -- forthcoming},
